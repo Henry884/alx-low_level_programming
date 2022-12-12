@@ -1,21 +1,18 @@
 #include <stdio.h>
+
 /**
-*       main - Entry point
-*
-*       Description: **
-*
-*       Return: 0 (Success)
-*/
+ * main - Entry point
+ *
+ * Return: Always 0 (Success)
+ */
 
 int main(void)
 {
-	int digit;
+	int num;
 
-	for (digit = '0'; digit <= '9'; digit++)
-	{
-		putchar(digit);
-	}
-
+	for (num = '0'; num <= '9'; ++num)
+		putchar(num);
 	putchar('\n');
+
 	return (0);
 }
