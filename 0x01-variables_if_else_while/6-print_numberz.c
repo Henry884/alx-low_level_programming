@@ -1,9 +1,12 @@
 #include <stdio.h>
 /**
-*main - Prints all single digits of base 10 followed by new line
+*       main - Entry point
 *
-*Return: 0 (Success)
+*       Description: **
+*
+*       Return: 0 (Success)
 */
+
 int main(void)
 {
 	int digit;
